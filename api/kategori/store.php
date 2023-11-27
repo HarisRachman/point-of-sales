@@ -1,7 +1,6 @@
 <?php
 include '../koneksi.php';
 
-// if(isset($_POST["nama"]) || isset($_POST["image"])){
     $input = file_get_contents("php://input");
     $decode = json_decode($input, true);
 
@@ -16,6 +15,5 @@ include '../koneksi.php';
     }else{
         echo json_encode(["success"=>false, "message"=>"Server Problem"]);
     }
-// }
-
+    
 ?>

@@ -103,13 +103,6 @@ if(!isset($_SESSION['valid'])) {
                 <div class="item-group" id="list-produk">
                     
                 </div>
-                <!-- <div class="item-group">
-                    <a href="#" class="item">Bud Light</a>
-                    <a href="#" class="item">Bud Light</a>
-                    <a href="#" class="item">Bud Light</a>
-                    <a href="#" class="item">Bud Light</a>
-                    <a href="#" class="item">Bud Light</a>
-                </div> -->
             </div>
         </div>
 
@@ -121,19 +114,11 @@ if(!isset($_SESSION['valid'])) {
                 </div>
             </div>
 
-            <!-- <div class="customer">
-                <input type="text" placeholder="Nama Pelanggan" />
-            </div> -->
-
             <div class="register">
                 <div class="products">
                   <div class='product-bar'>
                     <table width="100%" id="table-cart">
-                      <tr>
-                        <td>Ayam Goreng (5)</td>
-                        <td>Rp. 25000</td>
-                        <td>icon</td>
-                      </tr>
+                      
                     </table>
                   </div>
                 </div>
